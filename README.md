@@ -8,7 +8,6 @@ Here is the original thread for context
 
 https://aww.sm/4DaROLK
 
-
 ## Overview
 
 This repository contains a simple Python script that:
@@ -27,6 +26,11 @@ This repository contains a simple Python script that:
 ## Disclaimer
 
 This project is for **educational and research purposes only**. Do **not** use this code to attempt unauthorized access or compromise any real wallets or systems. Always work within legal boundaries and in controlled environments with explicit permission.
+
+This is an example of the speed I was getting running it on MacBook Pro M4 Max
+
+![alt text](<screenshots\example.png>)
+
 
 ## How to Get Started
 
