@@ -32,11 +32,10 @@ def crack_seed(target_seed, bip39_words):
             print(f"Attempts: {attempts}")
             print(f"Time taken: {elapsed:.2f} seconds")
             return
-        # Print status every 1,000,000 attempts for demonstration purposes
-        if attempts % 1_000_000 == 0:
+        # Print status every 10,000,000 attempts for demonstration purposes
+        if attempts % 100_000_000 == 0:
             elapsed = time.time() - start_time
             print(f"{attempts} attempts so far, elapsed time: {elapsed:.2f} seconds")
-            print("Last checked:", " ".join(candidate), "\n")
 
     print("Target seed not found.")
 

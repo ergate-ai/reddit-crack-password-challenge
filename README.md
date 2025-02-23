@@ -48,6 +48,44 @@ This is an example of the speed I was getting running it on MacBook Pro M4 Max
 3. **Optimize and Contribute:**
 Fork the repository, implement your optimizations, and open a pull request with your improvements. Let’s see who can bring this challenge down to a manageable timeframe!
 
+## Did you say Rust is better ?
+
+There is a rust version in the repo now. Go to ./rust folder and do `cargo run`
+
+The comparision results when ran on same computer are infact better for Python. 70 seconds for billion password in Python and 80 seconds for billion password in Rust
+
+
+This is for Rust
+```
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/rust`
+Loading BIP39 word list from file: english.txt
+Total BIP39 words loaded: 2048
+Starting brute-force search for the target seed...
+100000000 attempts so far, elapsed time: 8.06 seconds
+200000000 attempts so far, elapsed time: 16.20 seconds
+300000000 attempts so far, elapsed time: 24.34 seconds
+400000000 attempts so far, elapsed time: 32.53 seconds
+500000000 attempts so far, elapsed time: 40.70 seconds
+600000000 attempts so far, elapsed time: 48.89 seconds
+```
+
+This is for Python
+```
+python3 main.py
+Loading BIP39 word list from file: english.txt
+Total BIP39 words loaded: 2048
+Starting brute-force search for the target seed...
+100000000 attempts so far, elapsed time: 7.08 seconds
+200000000 attempts so far, elapsed time: 14.13 seconds
+300000000 attempts so far, elapsed time: 21.19 seconds
+400000000 attempts so far, elapsed time: 28.28 seconds
+500000000 attempts so far, elapsed time: 35.35 seconds
+600000000 attempts so far, elapsed time: 42.45 seconds
+```
+
+
+
 ## License
 This project is licensed under the MIT License.
 
