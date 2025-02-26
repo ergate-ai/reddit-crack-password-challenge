@@ -29,7 +29,7 @@ This project is for **educational and research purposes only**. Do **not** use t
 
 This is an example of the speed I was getting running it on MacBook Pro M4 Max
 
-![alt text](<screenshots\example.png>)
+![alt text](<https://github.com/ergate-ai/reddit-crack-password-challenge/blob/main/screenshots/example.png?raw=true>)
 
 
 ## How to Get Started
